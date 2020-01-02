@@ -1,0 +1,44 @@
+USE MASTER       
+GO       
+       
+-- 1) Check for the Database Exists .If the database is exist then drop and create new DB       
+IF EXISTS (SELECT [name] FROM sys.databases WHERE [name] = 'CustDB' )       
+DROP DATABASE CustDB       
+GO       
+       
+CREATE DATABASE CustDB       
+GO       
+       
+USE CustDB       
+GO       
+       
+       
+-- 1) //////////// Customer Masters    
+
+IF EXISTS ( SELECT [name] FROM sys.tables WHERE [name] = 'CustomerMaster' )       
+DROP TABLE CustomerMaster       
+GO       
+       
+CREATE TABLE [dbo].[CustomerMaster](       
+        [CustCd] [varchar](20) NOT NULL ,         
+        [CustName] [varchar](100) NOT NULL,          
+        [Email]  [nvarchar](100) NOT NULL,        
+        [PhoneNo] [varchar](100) NOT NULL,           
+        [InsertBy] [varchar](100) NOT NULL,   
+        PRIMARY KEY (CustCd)  
+)       
+       
+-- insert sample data to Student Master table       
+INSERT INTO [CustomerMaster]   (CustCd,CustName,Email,PhoneNo,InsertBy)       
+     VALUES ('C001','ACompany','acompany@gmail.com','01000007860','Shanun')       
+       
+INSERT INTO [CustomerMaster]   (CustCd,CustName,Email,PhoneNo,InsertBy)       
+     VALUES ('C002','BCompany','bcompany@gmail.com','0100000001','Afraz')  
+
+INSERT INTO [CustomerMaster]   (CustCd,CustName,Email,PhoneNo,InsertBy)       
+     VALUES ('C003','CCompany','ccompany@gmail.com','01000000002','Afreen')  
+
+INSERT INTO [CustomerMaster]   (CustCd,CustName,Email,PhoneNo,InsertBy)       
+     VALUES ('C004','DCompany','dcompany@gmail.com','01000001004','Asha')  
+            
+     select * from CustomerMaster 
