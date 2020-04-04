@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ahmasiri\\source\\repos\\Blazor\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\ahmasiri\\source\\repos\\Blazor\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ahmasiri\\source\\repos\\Blazor\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\ahmasiri\\source\\repos\\Blazor\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ahmasiri\\source\\repos\\Blazor\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\ahmasiri\\source\\repos\\Blazor\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "c:\\Users\\ahmasiri\\source\\repos\\Blazor\\BlazorApp1\\BlazorApp1.csproj",
+        "projectPath": "C:\\Users\\ahmasiri\\source\\repos\\Blazor\\BlazorApp1\\BlazorApp1.csproj",
         "packagesPath": "C:\\Users\\ahmasiri\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ahmasiri\\source\\repos\\Blazor\\BlazorApp1\\obj\\",
+        "outputPath": "C:\\Users\\ahmasiri\\source\\repos\\Blazor\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -80,7 +80,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
+              "version": "[3.0.2, 3.0.2]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
